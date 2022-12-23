@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.contents-wrapper {
+  max-width: 1100px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: Montserrat;
+  font-size: 32px;
+  letter-spacing: 68;
+}
+
+header {
+  color: #fff;
+  height: 60vh;
+}
+
+header .top {
+  background-image: url("imgs/heading-img.jpg");
+  background-size: cover;
+  background-position: center 0;
+  width: 75%;
+  height: 85%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+header .top .logo {
+  padding: 3% 4%;
+}
+
+header .top .top-text {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
+}
+
+header:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #222;
+  width: 50%;
+  height: 60vh;
+  z-index: -1;
+}
+
+.vision {
+  padding: 120px 0;
+  width: 60%;
+}
+
+.vision .vision-inner {
+  padding-left: 15.7vw;
+}
+
+.ceo {
+  margin-bottom: 120px;
+}
+
+.ceo .ceo-wrapper {
+  padding-top: 140px;
+  position: relative;
+  max-width: 1100px;
+}
+
+.ceo .ceo-women {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 35%;
+}
+
+.ceo .ceo-message {
+  width: 770px;
+  margin-left: auto;
+  background-color: #F0F0F0;
+  padding: 120px 185px 90px 185px;
+}
+
+@media (max-width: 768px) {
+  .contents-wrapper {
+    width: 90%;
+  }
+  .ceo .ceo-wrapper .ceo-women {
+    width: 320px;
+  }
+  .ceo .ceo-wrapper .ceo-message {
+    width: 100%;
+    padding: 120px 40px 185px 40px;
+  }
+}
+
+.company h2 {
+  border-bottom: 1px solid #DDDDDD;
+  padding-bottom: 30px;
+}
+
+.company .company-list {
+  max-width: 800px;
+  margin-left: auto;
+}
+
+.company .company-list .company-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #DDDDDD;
+  padding-bottom: 18px;
+  margin-top: 17px;
+  font-size: 16px;
+}
+
+.company .company-list .company-item .bold {
+  width: 142px;
+  font-weight: bold;
+}
+
+.company img {
+  padding: 40px 0 80px 0;
+  max-width: 100%;
+}
+
+footer {
+  background-color: #525252;
+  text-align: center;
+  color: #fff;
+  padding: 18px 0;
+}
+/*# sourceMappingURL=about.css.map */
