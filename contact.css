@@ -1,1 +1,174 @@
 
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.title {
+  font-family: Montserrat;
+  font-size: 32px;
+  letter-spacing: 68;
+}
+
+header {
+  color: #fff;
+  height: 60vh;
+}
+
+header .top {
+  background-image: url("imgs/heading-img_contact.jpg");
+  background-size: cover;
+  width: 75%;
+  height: 85%;
+  position: relative;
+}
+
+header .top .logo {
+  padding: 3% 4%;
+}
+
+header .top .top-text {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
+}
+
+header:after {
+  content: "";
+  display: block;
+  background-color: #222222;
+  width: 50%;
+  height: 60vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.contact-detail {
+  padding: 120px 0;
+}
+
+.contact-detail .essential {
+  margin-left: 20px;
+  padding: 1px 5px;
+  text-align: center;
+  width: 34px;
+  font-size: 12px;
+  color: #fff;
+  background-color: #525252;
+}
+
+.contact-detail .contact-wrapper {
+  max-width: 700px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.contact-detail .contact-wrapper .form-top-text {
+  padding-bottom: 52px;
+}
+
+.contact-detail .contact-wrapper .contact-item {
+  padding-bottom: 42px;
+}
+
+.contact-detail .contact-wrapper .contact-item .contact-item-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 18px;
+}
+
+.contact-detail .contact-wrapper .contact-item .submit-btn {
+  text-align: center;
+}
+
+.contact-detail .contact-wrapper .contact-item .submit-btn input {
+  background-color: #000;
+  color: #fff;
+  padding: 8px 66px;
+  border: 1px #000 solid;
+}
+
+.contact-detail .contact-wrapper .contact-item .contact-item-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 42px;
+}
+
+.contact-detail .contact-wrapper .contact-item .contact-item-list li {
+  list-style: none;
+  padding-right: 50px;
+}
+
+.contact-detail .contact-wrapper .contact-item .contact-item-list li input {
+  padding-right: 14px;
+}
+
+.contact-detail .contact-wrapper .contact-item .form-text li {
+  list-style: none;
+  padding-bottom: 42px;
+}
+
+.contact-detail .contact-wrapper .contact-item .form-text li .form-item-title {
+  padding-bottom: 10px;
+}
+
+.contact-detail .contact-wrapper .contact-item .form-text li input {
+  width: 100%;
+  height: 41px;
+}
+
+.contact-detail .contact-wrapper .contact-item .form-text li textarea {
+  width: 100%;
+}
+
+.contact-detail .contact-wrapper .contact-item .privacy-title {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: Bold;
+  padding-bottom: 10px;
+}
+
+.contact-detail .contact-wrapper .contact-item .privacy-policy {
+  padding: 10px;
+  border: 1px solid #000;
+  overflow: scroll;
+  height: 230px;
+  margin-bottom: 40px;
+}
+
+.contact-detail .contact-wrapper .contact-item .confirm {
+  text-align: center;
+  padding-bottom: 41px;
+}
+
+.contact-detail .contact-wrapper .contact-item .confirm input {
+  margin-right: 10px;
+}
+
+footer {
+  background-color: #525252;
+  text-align: center;
+  color: #fff;
+  padding: 18px 0;
+}
+
+@media (max-width: 768px) {
+  .contact-item-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact-item-list li {
+    padding-bottom: 14px;
+  }
+}
+/*# sourceMappingURL=contact.css.map */
